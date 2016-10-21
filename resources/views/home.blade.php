@@ -17,7 +17,7 @@
 			<a href="{{route('home')}}">inicio</a>
 			<a href="{{route('saludos','andres')}}">saludo</a>
 			<a href="{{route('contactos')}}">Contacto</a>
-			<p>hola andres {{request->url()}}</p>
+			<p>hola andres {{request()->url()}}</p>
 		</nav>
 	</header>
 
